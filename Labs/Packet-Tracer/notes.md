@@ -73,4 +73,50 @@ Example addressing scheme:
 | PC-2 | Ethernet | 192.168.1.20 |
 
 Subnet Mask:
+255.255.255.0
 
+
+---
+
+## Verification Commands
+
+Commands used to verify the configuration:
+
+### Check Interface Status
+show ip interface brief
+
+
+### Check Running Configuration
+show running-config
+
+
+### Test Connectivity
+ping <destination-ip>
+
+
+---
+
+## Skills Practiced
+
+- Cisco IOS command-line interface (CLI)
+- Basic router configuration
+- Basic switch configuration
+- IPv4 addressing
+- Network troubleshooting
+- Connectivity testing
+
+---
+
+## Lab Files
+Basic-Network-Setup.pkt
+
+Cisco Packet Tracer project file containing the complete lab topology and configurations.
+Network topology diagram showing device connections.
+
+Documentation and explanation of the lab.
+
+---
+
+## Conclusion
+
+This lab provides a foundation for understanding Cisco networking concepts. It introduces basic device configuration, IP addressing, and connectivity testing, which are essential skills for progressing through the CCNA learning path.
